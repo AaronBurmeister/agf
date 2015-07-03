@@ -18,7 +18,7 @@ public class Matrix {
 	}
 
 	public static void rotateM(float[] m, int offset, float degrees, float x, float y, float z) {
-		float[] t = FloatUtil.makeRotationAxis(new float[16], 0, degrees, x, y, z, new float[3]);
+		float[] t = FloatUtil.makeRotationAxis(new float[16], 0, (float) Math.toRadians(degrees), x, y, z, new float[3]);
 		FloatUtil.multMatrix(m, offset, t, 0);
 	}
 
