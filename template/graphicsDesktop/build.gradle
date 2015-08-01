@@ -8,7 +8,7 @@ sourceSets {
 
 dependencies {
 	compile fileTree(include: ['*.jar'], dir: 'libs')
-	compile files('../agf/agf-1.0.jar')
+	compile files('../agf/agf.jar')
 	compile 'org.jogamp.gluegen:gluegen-rt-main:2.3.1'
 	compile 'org.jogamp.jogl:jogl-all-main:2.3.1'
 }

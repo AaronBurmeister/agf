@@ -5,5 +5,5 @@ targetCompatibility = 1.7
 
 dependencies {
 	compile fileTree(include: ['*.jar'], dir: 'libs')
-	compile files('../agf/agf-1.0.jar')
+	compile files('../agf/agf.jar')
 }
